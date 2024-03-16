@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.homepage{
+display: flex;
+background-color: #FFCD9E;
+height: 66vh;
+
+}
+
+/* LEFT BOX CSS */
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+    justify-content: center;
+   
+}
+
+.left h1{
+    color:  #282828;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 32px;
+     margin-top: 0;
+    
+}
+
+.left p{
+    color: #484848;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 14px;
+    width: 70%;
+  
+
+}
+
+.left h2{
+    color: #282828;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+
+}
+
+.col-wrapper{
+    height: 80%;
+    width: 100%;
+    padding-top: 0;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.InputBox{
+   width: auto;
+
+}
+
+.InputBox input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 2px;
+    box-sizing: border-box;
+    padding-left: 5px;
+   
+}
+
+.btn-register-now{
+ color: white;
+ background-color: black;
+ margin-left: 10px;
+ border-radius: 5px;
+ width: 150px;
+ height: 30px;
+ font-family: "Inter", sans-serif;
+
+}
+
+.left h6{
+    color: white;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 4px;
+}
+/* RIGHT BOX CSS */
+.right{
+    width: 45%;
+    text-align: center;
+}
+
+.right img{
+    height: 100%;
+  
+    aspect-ratio: 1;
+
+   
+}
+
+
+
+
+
+
+
+.footer{
+display: flex;
+background: #282828;
+height: 34vh;
+width: 100%;
+padding-left: 100px;
+padding-right:200px;
+box-sizing: border-box;
+justify-content: space-between;
+}
+
+
+
+
+.fleft{
+    margin-top: 30px;
+    list-style: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    line-height: 25px;
+    font-size: 14px;
+}
+.fright {
+    margin-top: 30px;
+    list-style: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    line-height: 25px;
+    font-size: 14px;
+     display: flex;
+    flex-direction: column;
+     align-items: end;
+  
+}
+
